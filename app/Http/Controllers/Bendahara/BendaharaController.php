@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class BendaharaController extends Controller
 {
     public function index() {
-        echo "hallo bendahara";
+        return view('bendahara.dashboard');
     }
 }
