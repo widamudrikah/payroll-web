@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="gaji_pokok" class="form-label">Gaji Pokok</label>
+                            <label for="gaji_pokok" class="form-label">Gaji Perhari</label>
                             <input type="number" name="gaji_pokok" id="gaji_pokok"
                                 class="form-control @error('gaji_pokok') is-invalid @enderror"
                                 value="{{ old('gaji_pokok', $employee->gaji_pokok) }}">

@@ -10,7 +10,7 @@
             <div class="card card-custom h-100 text-center p-4 bg-white">
                 <h5 class="card-title text-dark">Presensi Harian</h5>
                 <p class="card-text">Lakukan presensi kehadiran setiap hari.</p>
-                <a href="#" class="btn btn-dark">Presensi Sekarang</a>
+                <a href="{{ route('attendance.index') }}" class="btn btn-dark">Presensi Sekarang</a>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
             <div class="card card-custom h-100 text-center p-4 bg-white">
                 <h5 class="card-title text-dark">Riwayat Gaji</h5>
                 <p class="card-text">Lihat detail gaji bulanan kamu.</p>
-                <a href="#" class="btn btn-dark">Lihat Gaji</a>
+                <a href="{{ route('salary.index') }}" class="btn btn-dark">Lihat Gaji</a>
             </div>
         </div>
     </div>

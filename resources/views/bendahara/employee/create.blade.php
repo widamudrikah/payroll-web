@@ -47,8 +47,8 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="gaji_pokok" class="form-label">Gaji Pokok</label>
-                            <input type="number" name="gaji_pokok" id="gaji_pokok" class="form-control @error('gaji_pokok') is-invalid @enderror @error('title') is-invalid @enderror" placeholder="Masukkan gaji pokok">
+                            <label for="gaji_pokok" class="form-label">Gaji Perhari</label>
+                            <input type="number" name="gaji_pokok" id="gaji_pokok" class="form-control @error('gaji_pokok') is-invalid @enderror @error('title') is-invalid @enderror" placeholder="Masukkan gaji perhari">
                             @error('gaji_pokok')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror

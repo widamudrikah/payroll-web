@@ -3,12 +3,10 @@
 @section('content')
 <div class="container">
     <h2 class="mb-4 fw-semibold">Kelola Data Karyawan</h2>
-
     <!-- Tombol Tambah -->
     <div class="mb-3 text-end">
         <a href="{{ route('manage.employee.create') }}" class="btn btn-primary">+ Tambah Karyawan</a>
     </div>
-
     <!-- Tabel Karyawan -->
     <div class="table-responsive">
         @if(session('message'))
